@@ -9,5 +9,6 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  groceries = {fruit: "Bananna", vegetable: "Broccoli", dessert: "Cookie"}
+  groceries.values
+  binding.pry
 end
